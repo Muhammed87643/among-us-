@@ -4,8 +4,12 @@ node-v14.16.0-x64.msi
 cls
 pause
 npm install -g yarn
-cls pause
+cls
+pause
 yarn install
+cls
+pause
+Git Install.url
 cls
 pause
 shutdown -r -t -1

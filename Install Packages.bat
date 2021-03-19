@@ -1,6 +1,6 @@
 @echo off
 cls
-node-v14.16.0-x64.msi
+Node.js Install.url
 cls
 pause
 npm install -g yarn
@@ -12,6 +12,6 @@ pause
 Git Install.url
 cls
 pause
-shutdown -r -t -1
-shutdown -r
-exit
+echo open installed packeges in download folder
+pause
+explorer %appdata%\..\..\downloads
